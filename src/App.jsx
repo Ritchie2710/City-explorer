@@ -29,6 +29,7 @@ function App() {
       <h2>{location.display_name}</h2>
       <p>{location.lat}</p>
       <p>{location.lon}</p>
+      GET: https://maps.locationiq.com/v3/staticmap
     </>
   );
 }
